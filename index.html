@@ -21,6 +21,27 @@
 				});
 			})
 		</script>
+
+
+		    <meta charset="utf-8"/>
+		    <title>IconFont</title>
+		    <link rel="stylesheet" href="demo.css">
+		    <script src="iconfont.js"></script>
+
+		    <style type="text/css">
+		        .icon {
+		          /* 通过设置 font-size 来改变图标大小 */
+		          width: 1em; height: 1em;
+		          /* 图标和文字相邻时，垂直对齐 */
+		          vertical-align: -0.15em;
+		          /* 通过设置 color 来改变 SVG 的颜色/fill */
+		          fill: currentColor;
+		          /* path 和 stroke 溢出 viewBox 部分在 IE 下会显示
+		             normalize.css 中也包含这行 */
+		          overflow: hidden;
+		        }
+
+		    </style>
 	<!-- <script>
 			(function() {
 				var bp = document.createElement('script');
@@ -65,14 +86,22 @@
 					<nav>
 						<ul>
 							<li>
-								<a href="http://seccsc.com/blog/" class="fa  fa-pencil-square-o" style="color:mediumspringgreen"><span>Blog</span></a>
+								<a href="http://seccsc.com/blog/categories/index.html" class="fa  fa-pencil-square-o" style="color:mediumspringgreen"><span>Blog</span></a>
 							</li>
 							<li>
 								<a href="http://weibo.com/onlyage" class="fa fa-weibo"><span>Weibo</span></a>
 							</li>
 							 <li>
-								<a href="http://seccsc.com/blog/categories/index.html" class="fas fa-sort"><span>email</span></a>
+								<a href="http://zhihu.com/people/cossin" class="fas fa-sort"><span>zhihu</span></a>
 						  </li>
+
+							<li>
+									<svg class="icon" aria-hidden="true">
+											<use xlink:href="http://zhihu.com/people/cossin"></use>
+									</svg>
+									<div class="name">zhihu</div>
+									<div class="fontclass">#icon-zhihu</div>
+							</li>
 
 						</ul>
 					</nav>
