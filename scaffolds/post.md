@@ -1,8 +1,9 @@
 ---
 title: {{ title }}
-date: {{ date }}
-tags:
-categories:
-comments: false
+comments: true
 mathjax: true
+long: 
+date: {{ date }} 
+tags:
+categories:  
 ---
